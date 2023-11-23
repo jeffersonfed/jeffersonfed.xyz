@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jeffersonfed</title>
-    <link rel="icon" href="icons/catface001.jpg" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffersonfed.xyz Landing Page</title>
+    <link rel="icon" href="https://links.jeffersonfed.xyz/profile.png" />
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="icons/font-awesome/css/all.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
-  <body>
-    <div class="content-wrapper">
-      <h1>Hi, I'm Jefferson</h1>
-      <p>
-        Developer <span class="divider"> | </span> AI Prompt
-        <span class="divider"> | </span> Creative
-      </p>
-      <a href="https://twitter.com/jeffersonfed14" target="_blank">
-        <i class="icon fab fa-twitter fa-2x"></i>
-      </a>
-      <a href="https://github.com/jeffersonfed" target="_blank">
-        <i class="icon fab fa-github fa-2x"></i>
-      </a><br>
-      <a href="https://links.jeffersonfed.xyz" target="_blank">
-        <i class="icon fa fa-link fa-2x"> Links</i>
-      </a>
-    </div>
-  </body>
+    <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                darkMode: "class",
+            }
+        </script>
+</head>
+<body>
+    <main>
+        <div class="relative flex flex-col h-[100vh] items-center justify-center bg-white dark:bg-black transition-bg">
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="background absolute -inset-[10px] opacity-50"></div>
+            </div>
+
+            <h1 class="relative flex items-center text-5xl font-bold text-gray-800 dark:text-white dark:opacity-80 transition-colors">
+                Jefferson
+                <span class="ml-1 rounded-xl bg-current p-2 text-[0.7em] leading-none">
+                    <span class="text-white dark:text-black">RJ14</span>
+                </span> 
+            </h1>
+
+            <p class="relative flex items-center dark:text-white transition-colors">
+                Zero To Mastery Student | Front-End Developer | AI Prompt | Creative
+            </p>
+        <div class="flex">
+            <div class="px-3 py-1 rounded-full drop-shadow-sm text-sm text-stone-800 dark:text-white backdrop-blur-lg transition-colors dark:hover:border-stone-400">
+                <div class="rounded-full hover:bg-gray-900 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black" >
+                    <a href="https://twitter.com/jeffersonfed14" target="_blank">
+                        <i class="icon fab fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="px-3 py-1 rounded-full drop-shadow-sm text-sm text-stone-800 dark:text-white backdrop-blur-lg transition-colors dark:hover:border-stone-400">
+                <div class="rounded-full hover:bg-gray-900 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black" >
+                    <a href="https://github.com/jeffersonfed" target="_blank">
+                        <i class="icon fab fa-github fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+            <div class="mt-4">
+                <button onclick="toggleTheme()" class="px-3 py-1 border border-stone-200 rounded-full drop-shadow-sm text-sm text-stone-800 dark:text-white bg-white/40 dark:bg-black/40 backdrop-blur-lg hover:border-stone-300 transition-colors dark:border-stone-500 dark:hover:border-stone-400">Toggle Theme</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
 </html>

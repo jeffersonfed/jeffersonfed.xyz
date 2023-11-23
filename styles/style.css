@@ -37,10 +37,10 @@ body {
         #60a5fa 20%,
         #5eead4 25%,
         #60a5fa 30% */
-        #dfe6e9 10%,
-        #b6dee7 15%,
+        #13c4a5 10%,
+        #e879f9 15%,
         #86d6db 20%,
-        #53cec5 25%,
+        #5eead4 25%,
         #13c4a5 30%
     );
     background-image: var(--stripes), var(--rainbow);

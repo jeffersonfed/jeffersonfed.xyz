@@ -110,6 +110,9 @@ p {
     transition: all 0.7s ease-in-out;
   }
 
+div#line1{
+    cursor: pointer;
+}
 
 div#line1 span#a {
     display:inline;

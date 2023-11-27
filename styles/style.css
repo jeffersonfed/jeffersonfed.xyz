@@ -91,6 +91,15 @@ p {
     cursor: pointer;
     /* background-color: rgb(220, 206, 206); */
   }
+  .icon-sub {
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .icon-sub:hover {
+    cursor: pointer;
+    /* background-color: rgb(220, 206, 206); */
+  }
   div div div a:hover{
     position: relative; 
     cursor:default;

@@ -66,6 +66,7 @@
   strong {
     font-weight: bold;
   }
+  
   .agree {
     top: 9rem;
     right: 0;
@@ -101,9 +102,9 @@ ul.social-icons {
     text-decoration: none;
 }
 
-.social-icons img {
-    /* border-radius: 10px; */
-}
+/* .social-icons img {
+    border-radius: 10px;
+} */
 
 .social-icons img {
     background-color: #212121;
